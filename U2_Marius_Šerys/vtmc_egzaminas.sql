@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 22, 2021 at 11:56 AM
+-- Generation Time: Jun 22, 2021 at 01:39 PM
 -- Server version: 10.4.19-MariaDB
 -- PHP Version: 8.0.7
 
@@ -68,11 +68,11 @@ CREATE TABLE `kursai` (
 --
 
 INSERT INTO `kursai` (`id`, `name`, `lastname`, `title`, `created_at`, `small_description`, `description`, `image`, `popular`, `price`) VALUES
-(1, 'Tomas', 'Tomaitis', 'PHP Pagrindai', '2021-06-22 09:49:21', 'Cia kazkas paprasto', 'Lorem ipsum dolor sit amet consectetur, adipisicing elit.\r\n                Deleniti minus animi, earum eos quo cumque numquam impedit ut?\r\n                Quia dolor possimus aliquam ea natus dolore itaque ad unde quas\r\n                libero!', './images/php.jpg', 7, 1.3),
-(2, 'Juste', 'Justina', 'HTML/CSS Įvadas', '2021-06-22 09:49:21', 'Visai lengvai.', 'Lorem ipsum dolor sit amet consectetur, adipisicing elit.\r\n                Deleniti minus animi, earum eos quo cumque numquam impedit ut?\r\n                Quia dolor possimus aliquam ea natus dolore itaque ad unde quas\r\n                libero!', './images/css.jpg', 7, 1.3),
-(3, 'Vaclov', 'Vaclovas', 'Pažintis Su GIT', '2021-06-22 09:49:21', 'Perprantama', 'Lorem ipsum dolor sit amet consectetur, adipisicing elit.\r\n                Deleniti minus animi, earum eos quo cumque numquam impedit ut?\r\n                Quia dolor possimus aliquam ea natus dolore itaque ad unde quas\r\n                libero!', './images/git.jpg', 5, 1.2),
-(4, 'Marius', 'Maraitis', 'Javascript Žemėlapis', '2021-06-22 09:49:21', 'Paskui atrodis lengva', 'Lorem ipsum dolor sit amet consectetur, adipisicing elit.\r\n                Deleniti minus animi, earum eos quo cumque numquam impedit ut?\r\n                Quia dolor possimus aliquam ea natus dolore itaque ad unde quas\r\n                libero!', './images/js.jpg', 9, 1.1),
-(5, 'Goda', 'Godyte', 'Viskas Sudėta', '2021-06-22 09:49:21', 'Viska išmoksi', 'Lorem ipsum dolor sit amet consectetur, adipisicing elit.\r\n                Deleniti minus animi, earum eos quo cumque numquam impedit ut?\r\n                Quia dolor possimus aliquam ea natus dolore itaque ad unde quas\r\n                libero!', './images/logo.jpg', 3, 1);
+(1, 'Tomas', 'Tomaitis', 'PHP Pagrindai', '2021-06-22 09:49:21', 'Cia kazkas paprasto', 'Lorem ipsum dolor sit amet consectetur, adipisicing elit.\r\n                Deleniti minus animi, earum eos quo cumque numquam impedit ut?\r\n                Quia dolor possimus aliquam ea natus dolore itaque ad unde quas\r\n                libero!', 'images/php.jpg', 7, 1.3),
+(2, 'Juste', 'Justina', 'HTML/CSS Įvadas', '2021-06-22 09:49:21', 'Visai lengvai.', 'Lorem ipsum dolor sit amet consectetur, adipisicing elit.\r\n                Deleniti minus animi, earum eos quo cumque numquam impedit ut?\r\n                Quia dolor possimus aliquam ea natus dolore itaque ad unde quas\r\n                libero!', 'images/css.jpg', 7, 1.3),
+(3, 'Vaclov', 'Vaclovas', 'Pažintis Su GIT', '2021-06-22 09:49:21', 'Perprantama', 'Lorem ipsum dolor sit amet consectetur, adipisicing elit.\r\n                Deleniti minus animi, earum eos quo cumque numquam impedit ut?\r\n                Quia dolor possimus aliquam ea natus dolore itaque ad unde quas\r\n                libero!', 'images/git.jpg', 5, 1.2),
+(4, 'Marius', 'Maraitis', 'Javascript Žemėlapis', '2021-06-22 09:49:21', 'Paskui atrodis lengva', 'Lorem ipsum dolor sit amet consectetur, adipisicing elit.\r\n                Deleniti minus animi, earum eos quo cumque numquam impedit ut?\r\n                Quia dolor possimus aliquam ea natus dolore itaque ad unde quas\r\n                libero!', 'images/js.jpg', 9, 1.1),
+(5, 'Goda', 'Godyte', 'Viskas Sudėta', '2021-06-22 09:49:21', 'Viska išmoksi', 'Lorem ipsum dolor sit amet consectetur, adipisicing elit.\r\n                Deleniti minus animi, earum eos quo cumque numquam impedit ut?\r\n                Quia dolor possimus aliquam ea natus dolore itaque ad unde quas\r\n                libero!', 'images/logo.png', 3, 1);
 
 -- --------------------------------------------------------
 
